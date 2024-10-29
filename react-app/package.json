@@ -2,7 +2,7 @@
   "name": "react-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Merv39.github.io",
+  "homepage": "https://merv39.github.io",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
