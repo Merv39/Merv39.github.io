@@ -1,8 +1,8 @@
 import "./NavBar.css";
 
 const NavBar = () => {
-  let links = ["Link1", "Link2"];
-  let link_elements = links.map((item) => (
+  const links = ["Link1", "Link2"];
+  const link_elements = links.map((item) => (
     <li className="nav-item">
       <a className="nav-link" href="#{item}">
         {item}

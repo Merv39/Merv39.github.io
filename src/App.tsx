@@ -4,7 +4,7 @@ import Button from "./components/Button";
 import ListGroup from "./components/ListGroup";
 
 function App() {
-  let items = ["Tokyo", "London", "Shanghai", "Singapore", "Dublin"];
+  const items = ["Tokyo", "London", "Shanghai", "Singapore", "Dublin"];
 
   const [alertVisible, setAlertVisibility] = useState(false);
 
