@@ -1,0 +1,9 @@
+.home-screen {
+    width: 100vw;
+    height: 90vh;
+    margin: 0; /* Remove default paragraph margin */
+    display: flex; /* Optional for centering content */
+    align-items: center; /* Vertically center text */
+    justify-content: center; /* Horizontally center text */
+    background-color: lightblue; /* Optional background */
+  }

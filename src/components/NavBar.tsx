@@ -1,3 +1,5 @@
+import "./NavBar.css";
+
 const NavBar = () => {
   let links = ["Link1", "Link2"];
   let link_elements = links.map((item) => (
@@ -9,7 +11,7 @@ const NavBar = () => {
   ));
 
   return (
-    <nav className="navbar bg-light">
+    <nav className="navbar navbar-expand-sm bg-light">
       <div className="container-fluid">
         <ul className="navbar-nav">{link_elements}</ul>
       </div>
