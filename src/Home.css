@@ -3,6 +3,7 @@
     height: 90vh;
     margin: 0; /* Remove default paragraph margin */
     display: flex; /* Optional for centering content */
+    flex-direction: column; /* Stack children vertically */
     align-items: center; /* Vertically center text */
     justify-content: center; /* Horizontally center text */
     background-color: lightblue; /* Optional background */
