@@ -1,13 +1,12 @@
 import { useState } from "react";
 import ListGroup from "./components/ListGroup";
 import useTextFile from "./components/useTextFile";
-import file1 from "./Text/Intro.txt";
 
 import "./Home.css";
 
 // React sends the HTML back to the reactapp
 function Home() {
-  const text1 = useTextFile(file1);
+  const text1 = useTextFile("Intro.txt");
 
   const HTMLcontent = (
     <>

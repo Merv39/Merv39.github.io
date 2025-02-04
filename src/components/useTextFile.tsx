@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 
 const useTextFile = (filePath: string) => {
-  const text_dir = "../Text/";
+  const text_dir = "/Text/";
   const [text, setText] = useState<string>("");
+  filePath = text_dir + filePath;
 
   useEffect(() => {
     // if (!filePath) return;
