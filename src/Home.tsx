@@ -12,11 +12,10 @@ function Home() {
     <>
       <div className="home-screen">
         <div>
-          <h1>Welcome to Home</h1>
+          <h1>Mervyn Wong</h1>
         </div>
         <div>
-          <p>This paragraph takes up the whole screen!</p>
-          <p>{text1}</p>
+          <p className="text-content">{text1}</p>
         </div>
       </div>
     </>
